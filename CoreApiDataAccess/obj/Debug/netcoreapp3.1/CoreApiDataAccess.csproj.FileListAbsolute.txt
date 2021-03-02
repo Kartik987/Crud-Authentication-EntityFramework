@@ -1,0 +1,9 @@
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreApiDataAccess\bin\Debug\netcoreapp3.1\CoreApiDataAccess.deps.json
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreApiDataAccess\bin\Debug\netcoreapp3.1\CoreApiDataAccess.dll
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreApiDataAccess\bin\Debug\netcoreapp3.1\CoreApiDataAccess.pdb
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreApiDataAccess\obj\Debug\netcoreapp3.1\CoreApiDataAccess.AssemblyInfoInputs.cache
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreApiDataAccess\obj\Debug\netcoreapp3.1\CoreApiDataAccess.AssemblyInfo.cs
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreApiDataAccess\obj\Debug\netcoreapp3.1\CoreApiDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreApiDataAccess\obj\Debug\netcoreapp3.1\CoreApiDataAccess.dll
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreApiDataAccess\obj\Debug\netcoreapp3.1\CoreApiDataAccess.pdb
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreApiDataAccess\obj\Debug\netcoreapp3.1\CoreApiDataAccess.csprojAssemblyReference.cache

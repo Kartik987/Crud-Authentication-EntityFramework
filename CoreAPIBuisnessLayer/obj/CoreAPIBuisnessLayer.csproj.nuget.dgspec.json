@@ -1,0 +1,212 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreAPIBuisnessLayer\\CoreAPIBuisnessLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreAPIBuisnessLayer\\CoreAPIBuisnessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreAPIBuisnessLayer\\CoreAPIBuisnessLayer.csproj",
+        "projectName": "CoreAPIBuisnessLayer",
+        "projectPath": "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreAPIBuisnessLayer\\CoreAPIBuisnessLayer.csproj",
+        "packagesPath": "C:\\Users\\Kartik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreAPIBuisnessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kartik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreApiDataAccess\\CoreApiDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreApiDataAccess\\CoreApiDataAccess.csproj"
+              },
+              "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreApiDomain\\CoreApiDomain.csproj": {
+                "projectPath": "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreApiDomain\\CoreApiDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.8.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreApiDataAccess\\CoreApiDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreApiDataAccess\\CoreApiDataAccess.csproj",
+        "projectName": "CoreApiDataAccess",
+        "projectPath": "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreApiDataAccess\\CoreApiDataAccess.csproj",
+        "packagesPath": "C:\\Users\\Kartik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreApiDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kartik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreApiDomain\\CoreApiDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreApiDomain\\CoreApiDomain.csproj",
+        "projectName": "CoreApiDomain",
+        "projectPath": "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreApiDomain\\CoreApiDomain.csproj",
+        "packagesPath": "C:\\Users\\Kartik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kartik\\source\\repos\\MyFirstAPI\\CoreApiDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Kartik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

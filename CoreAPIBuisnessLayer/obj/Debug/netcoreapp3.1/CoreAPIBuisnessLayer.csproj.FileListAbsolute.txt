@@ -1,0 +1,14 @@
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\bin\Debug\netcoreapp3.1\CoreAPIBuisnessLayer.deps.json
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\bin\Debug\netcoreapp3.1\CoreAPIBuisnessLayer.dll
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\bin\Debug\netcoreapp3.1\CoreAPIBuisnessLayer.pdb
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\obj\Debug\netcoreapp3.1\CoreAPIBuisnessLayer.csprojAssemblyReference.cache
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\obj\Debug\netcoreapp3.1\CoreAPIBuisnessLayer.AssemblyInfoInputs.cache
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\obj\Debug\netcoreapp3.1\CoreAPIBuisnessLayer.AssemblyInfo.cs
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\obj\Debug\netcoreapp3.1\CoreAPIBuisnessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\obj\Debug\netcoreapp3.1\CoreAPIBuisnessLayer.dll
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\obj\Debug\netcoreapp3.1\CoreAPIBuisnessLayer.pdb
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\bin\Debug\netcoreapp3.1\CoreApiDataAccess.dll
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\bin\Debug\netcoreapp3.1\CoreApiDomain.dll
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\bin\Debug\netcoreapp3.1\CoreApiDataAccess.pdb
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\bin\Debug\netcoreapp3.1\CoreApiDomain.pdb
+C:\Users\Kartik\source\repos\MyFirstAPI\CoreAPIBuisnessLayer\obj\Debug\netcoreapp3.1\CoreAPIBuisnessLayer.csproj.CopyComplete
