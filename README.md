@@ -1,1 +1,5 @@
-# WebApi-EntityFramework
+# Authentication JWT-EntityFramework
+
+Crud operations & Authentication using JWT.
+
+
