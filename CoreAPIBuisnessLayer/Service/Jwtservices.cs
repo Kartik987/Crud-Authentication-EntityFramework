@@ -27,7 +27,7 @@ namespace CoreAPIBuisnessLayer.Service
             ed.Password = password;
             var encryptpswd = ed.getencrypt;
             var context = new UserContext();
-            Authentication usrtbl = context.Authentications.Where(auth => auth.Username == username).FirstOrDefault();
+            Authentication usrtbl = context.Authentications.Where(auth => auth.Username == username).Where(auth => auth.Password == encryptpswd).FirstOrDefault();
           
             Tokendisp tokenshow = new Tokendisp();
             try
@@ -44,11 +44,11 @@ namespace CoreAPIBuisnessLayer.Service
                     {
                         Subject = new ClaimsIdentity(new Claim[] {
 
-                            new Claim(ClaimTypes.Name, "hhj")
+                            new Claim(ClaimTypes.Name, "")
                         }),
                           
                         Expires = new DateTimeOffset(DateTime.Now.AddMinutes(5)).DateTime,
-                       /* SigningCredentials = new SigningCredentials(
+                        /*SigningCredentials = new SigningCredentials(
                             new SymmetricSecurityKey(tokenkey),
                             SecurityAlgorithms.HmacSha256Signature
                             ),*/
@@ -86,7 +86,7 @@ namespace CoreAPIBuisnessLayer.Service
 
                 usertbl.Username = authobj.Username;
                 ed.Password = authobj.Password;
-                usertbl.Password = authobj.Password;
+                usertbl.Password = ed.getencrypt;
                 usertbl.Token = "";
                 context.Authentications.Add(usertbl);
                 context.SaveChanges();
