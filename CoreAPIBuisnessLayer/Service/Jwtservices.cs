@@ -35,10 +35,10 @@ namespace CoreAPIBuisnessLayer.Service
 
                 if (usrtbl != null)
                 {
-                    Console.WriteLine("Hey i am here ar 1");
+                   // Console.WriteLine("Hey i am here at 1");
                     var tokenhandler = new JwtSecurityTokenHandler();
                     var tokenkey = Encoding.ASCII.GetBytes(key);
-                    Console.WriteLine("Hey i am here ar 2");
+                  //  Console.WriteLine("Hey i am here at 2");
 
                     var tokendesc = new SecurityTokenDescriptor
                     {
@@ -50,10 +50,10 @@ namespace CoreAPIBuisnessLayer.Service
                         Expires = new DateTimeOffset(DateTime.Now.AddMinutes(5)).DateTime,
                         SigningCredentials = new SigningCredentials(
                             new SymmetricSecurityKey(tokenkey),
-                            SecurityAlgorithms.HmacSha256Signature
+                            SecurityAlgorithms.HmacSha256Signature     
                             ),
                     };
-                    Console.WriteLine("Hey i am here ar 3");
+                    // Console.WriteLine("Hey i am here at 3");
 
                     var token = tokenhandler.CreateToken(tokendesc);
                     usrtbl.Token = tokenhandler.WriteToken(token);
