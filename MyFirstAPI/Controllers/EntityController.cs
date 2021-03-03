@@ -22,21 +22,6 @@ namespace MyFirstAPI.Controllers
             _user = user;
         }
 
-        /*[Authorize]
-        [AllowAnonymous]
-        [HttpPost("api/[controller]/authenticate")]
-        public IActionResult Authenticate(string Username, string Password)
-        {
-
-            var token = _user.Authenticate(Username,Password);
-
-            if (token != null)
-                return Ok(token);
-            else
-                return Unauthorized();
-        }*/
-
-
         [HttpGet]
         [Route("api/[controller]")]
         public IActionResult Getalluser()
@@ -183,38 +168,7 @@ namespace MyFirstAPI.Controllers
 
         }
 
-        // basic token authentication api
-
-
-        /*  [HttpPost]
-          [Route("api/[controller]/AddauthUser")]
-          public IActionResult AuthuserAdd(Authmodel authobj)
-          {
-              return Ok(_user.Addauthuser(authobj));
-
-
-
-
-
-          }
-          [HttpGet]
-          [Route("api/[controller]/Showdata")]
-
-          public IActionResult Showdata(Guid token)
-          {
-
-
-
-              if ((_user.Showdata(token) != null))
-                  return Ok(_user.Showdata(token));
-              else
-                  return NotFound();
-
-
-          }*/
-
-
-        // basic token authentication api
+     
 
 
     }
