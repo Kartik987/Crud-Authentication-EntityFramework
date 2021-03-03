@@ -33,7 +33,7 @@ namespace MyFirstAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            var key = "this is key";
+            var key = "key to some_big_key_value_here_secret";
             services.AddSingleton<IUser, Uservice>();
            services.AddScoped<IUserEntity, UserEntity>();
           

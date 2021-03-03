@@ -48,10 +48,10 @@ namespace CoreAPIBuisnessLayer.Service
                         }),
                           
                         Expires = new DateTimeOffset(DateTime.Now.AddMinutes(5)).DateTime,
-                        /*SigningCredentials = new SigningCredentials(
+                        SigningCredentials = new SigningCredentials(
                             new SymmetricSecurityKey(tokenkey),
                             SecurityAlgorithms.HmacSha256Signature
-                            ),*/
+                            ),
                     };
                     Console.WriteLine("Hey i am here ar 3");
 
